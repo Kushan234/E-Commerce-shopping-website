@@ -1,0 +1,131 @@
+.about-us{
+    padding: 20px 50px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.contact-us{
+    display: flex;
+    margin-top: 50px;
+}
+.contact-us img{
+    width: 22px;
+    height: 22px;
+    margin-left: 20px;
+    gap: 10px;
+}
+.about-us h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 30px;
+
+}
+.about-us p{
+    margin: 30px 30px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.about-us h3{
+    margin: 30px 30px;
+    font-size: 25px;
+
+}
+.contact-us p{
+    display: flex;
+    margin: 30px 30px;
+    margin-left: 30px;
+}
+.contact-us-address{
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+@media (max-width: 1024px) {
+    .about-us {
+        padding: 15px 30px;
+    }
+
+    .about-us h1 {
+        font-size: 28px;
+        margin: 20px;
+    }
+
+    .about-us p, .about-us h3 {
+        margin: 20px;
+        font-size: 17px;
+    }
+
+    .contact-us p {
+        margin: 20px;
+        font-size: 17px;
+    }
+}
+
+/* For screens less than 800px */
+@media (max-width: 800px) {
+    .about-us {
+        padding: 10px 20px;
+    }
+
+    .about-us h1 {
+        font-size: 26px;
+        margin: 15px;
+    }
+
+    .about-us p, .about-us h3 {
+        margin: 15px;
+        font-size: 16px;
+    }
+
+    .contact-us p {
+        margin: 15px;
+        font-size: 16px;
+    }
+}
+
+/* For screens less than 500px */
+@media (max-width: 500px) {
+    .about-us {
+        padding: 5px 10px;
+    }
+
+    .about-us h1 {
+        font-size: 24px;
+        margin: 10px;
+    }
+
+    .about-us p, .about-us h3 {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    .contact-us p {
+        margin: 10px;
+        font-size: 14px;
+    }
+}
+
+/* For screens less than 300px */
+@media (max-width: 300px) {
+    .about-us {
+        padding: 5px;
+    }
+
+    .about-us h1 {
+        font-size: 20px;
+        margin: 5px;
+    }
+
+    .about-us p, .about-us h3 {
+        margin: 5px;
+        font-size: 12px;
+    }
+
+    .contact-us p {
+        margin: 5px;
+        font-size: 12px;
+    }
+}

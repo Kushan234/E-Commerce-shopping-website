@@ -1,0 +1,40 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    width: 100%;
+    background: #d8d5d5;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;   
+    margin-left: 80px;
+}
+
+.navbar h1{
+color: #3d3c3c;
+font-size: 30px;
+font-weight: 600px;
+font-family:'Times New Roman', Times, serif;
+}
+
+@media(max-width:800){
+
+.navbar{
+    padding: 15px 30px;
+}
+
+.nav-logo{
+    width: 150px;
+}
+
+.nav-profile{
+    width: 60px;
+}
+}

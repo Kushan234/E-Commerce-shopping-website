@@ -1,0 +1,117 @@
+.ProductDisplay{
+    display: flex;
+    padding: 0;
+    margin: 170px 70px;
+    margin-top: 10px;
+    background: #fff;
+}
+.productDisplay-Left{
+    display: flex;
+    gap: 15px;
+
+}
+.productDisplay-img-List{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 130px;
+    height: 50px;
+}
+.productDisplay-image{
+    height: 153px;
+    
+}
+.productDisplay-main-img{
+    width: 500px;
+    height: 665px;
+    
+}
+.productDisplay-main-img {
+    transition: transform 2s ease; /* Adjust duration and easing as needed */
+}
+
+.productDisplay-main-img:hover {
+    transform: scale3d(1.1, 1.1, 1.2); /* Adjust the scale values for the desired transformation */
+}
+
+.productDisplay-Right{
+    margin: -10px 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.productDisplay-Right h1{
+    color: #3d3d3d;
+    font-size: 27px;
+    font-weight: 700px;
+}
+.productDisplay-right-stars{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 2px;
+    color: #1c1c1c;
+    font-size: 10px;
+}
+.productDisplay-right-price{
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.productDisplay-right-price-old{
+    color: #818181;
+    text-decoration: line-through;
+}
+.productDisplay-right-price-new{
+    color: #ff4141;
+}
+.productDisplay-right-description{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.productDisplay-right-size h1{
+     margin-top: 50px;
+     color: #656565;
+     font-size: 20px;
+     font-weight: 600;
+
+}
+.productDisplay-right-sizes{
+    display: flex;
+    margin: 30px 0px;
+    gap: 10px;
+}
+.productDisplay-right-sizes div{
+    padding: 18px 24px;
+    background: #fbfbfb;
+    border: 1px solid #d4c8c8;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.productDisplay-Right button{
+    padding: 20px 40px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #ff4141;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.productDisplay-right-category{
+    margin-top: 10px;
+}
+.productDisplay-right-category span{
+    font-weight: 600;
+}
+.add_btn{
+    width: 20px;
+    height: 20px;
+    margin-left: -22px;
+    
+}
+

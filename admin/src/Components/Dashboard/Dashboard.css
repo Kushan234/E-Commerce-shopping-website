@@ -1,0 +1,108 @@
+
+.dashboard-admin{
+    margin: 60px 80px;
+}
+.dashboard-admin h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.dashboard-top{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 30px;
+  
+}
+.weekly-sales1{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 160px;
+    background: linear-gradient(#76878a,#5a756e,#383931);
+    margin: 50px 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 3 1px 2px -2px #000;
+}
+.weekly-sales1 h3{
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+.weekly-sales1 img{
+    width: 35px;
+    height: 35px;
+}
+.weekly-sales1 p{
+    display: flex;
+    flex-direction: row;
+   color: #fff;
+   font-size: 27px;
+   margin-bottom: 80px;
+}
+
+.weekly-sales2{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 160px;
+    background: linear-gradient(#90879e, #866c8b, #2d2731);
+    margin: 50px 70px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    
+}
+.weekly-sales2 h3{
+    margin-top: 130px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+.weekly-sales2 img{
+    width: 30px;
+    height: 30px;
+}
+.weekly-sales2 p{
+    display: flex;
+    flex-direction: row;
+   color: #fff;
+   font-size: 27px;
+   margin-bottom: 130px;
+}
+
+.dashboard-top3{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 160px;
+   background: linear-gradient(#e0e0e0,#bda593,#99755c,#374735);
+    margin: 50px 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin-left: 300px;
+    
+}
+.weekly-sales3 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 60px;
+}
+.weekly-sales3 p{
+    display: flex;
+    flex-direction: row;
+   color: #fff;
+   font-size: 27px;
+   margin-bottom: 130px;
+   margin-left: 65px;
+}
+.weekly-sales3 h3{
+    margin-top: 130px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}

@@ -1,0 +1,136 @@
+.testimonials-slideshow{
+    justify-content: center;
+    align-items: center;
+    margin-left: -25px;
+    background: linear-gradient(180deg, #e1e1ff 0%, #e1ffea22 60%);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 20px 21px 27px -20px rgba(0,0,0,0.21); 
+    box-shadow: 0px 10px 13px -7px #000000, 20px 21px 27px -20px rgba(0,0,0,0.21);
+    border-radius: 20px;
+    
+  
+}
+.testimonials img{
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 470px;
+    margin-top: 20px;
+}
+.testimonials p{
+   padding: 0 150px;
+    display: flex;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-left: 40px;
+    text-align: center;
+   
+    
+}
+.quort-mark h3{
+    font-size: 23px;
+    font-weight: 600;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.quort-mark img{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 520px;
+}
+
+
+@media (max-width: 1024px) {
+    .testimonials img {
+        width: 120px;
+        height: 120px;
+        margin-left: 100px;
+    }
+
+    .testimonials p {
+        padding: 0 100px;
+        font-size: 14px;
+    }
+
+    .quort-mark h3 {
+        font-size: 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .quort-mark img {
+        margin: 30px 50px;
+
+    }
+}
+
+/* For screens less than 800px */
+@media (max-width: 800px) {
+    .testimonials-slideshow {
+        margin-left: 0;
+    }
+
+    .testimonials img {
+        width: 100px;
+        height: 100px;
+        margin-top: 15px;
+        margin-left: 80px;
+    }
+
+    .testimonials p {
+        padding: 0 50px;
+        font-size: 13px;
+    }
+
+    .quort-mark h3 {
+        font-size: 18px;
+    }
+
+    .quort-mark img {
+        width: 25px;
+        height: 25px;
+        margin: 30px 50px;
+    }
+}
+
+/* For screens less than 500px */
+@media (max-width: 500px) {
+    .testimonials-slideshow {
+        padding: 10px;
+        margin-left: 0;
+    }
+
+    .testimonials img {
+        width: 80px;
+        height: 80px;
+        margin-left: 50px;
+    }
+
+    .testimonials p {
+        padding: 0 20px;
+        font-size: 12px;
+    }
+
+    .quort-mark h3 {
+        font-size: 16px;
+    }
+
+    .quort-mark img {
+        width: 20px;
+        height: 20px;
+        margin: 30px 50px;
+    }
+}
+
+/* For screens less than 300px */
+@media (max-width: 300px) {
+    .testimonials img {
+        width: 60px;
+        height: 60px;
+        margin: 30px 50px;
+    }
+}

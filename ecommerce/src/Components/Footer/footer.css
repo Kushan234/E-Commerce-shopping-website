@@ -1,0 +1,248 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #e7e1e1;
+    
+}
+.scroll-button{
+    margin-left: 75%;
+    font-size: 32px;
+    cursor: pointer;
+}
+.scroll-button button{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background: #949191;
+    cursor: pointer;
+
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-logo p{
+    color: #3d3c3c;
+    font-size: 46px;
+    font-weight: 700;
+
+}
+.footer-links{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #252525;
+    font-size: 20px;
+}
+.footer-links li{
+    cursor: pointer;
+}
+.footer-social-icons{
+    display: flex;
+    gap: 20px;
+    background: transparent;
+}
+.footer-icons-container{
+    padding: 10px;
+    padding-bottom: 6px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb; 
+}
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+.footer-copyright hr{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 3px;
+    background: #c7c7c7;
+}
+
+@media (max-width: 1024px) {
+    .Footer {
+        gap: 40px;
+        padding: 20px 0;
+    }
+
+    .scroll-button {
+        margin-left: 70%;
+        font-size: 28px;
+    }
+
+    .scroll-button button {
+        width: 45px;
+        height: 45px;
+    }
+
+    .footer-logo p {
+        font-size: 40px;
+    }
+
+    .footer-links {
+        gap: 40px;
+        font-size: 18px;
+    }
+
+    .footer-social-icons {
+        gap: 15px;
+    }
+
+    .footer-icons-container {
+        padding: 8px;
+    }
+
+    .footer-copyright {
+        font-size: 18px;
+        gap: 20px;
+    }
+}
+
+/* For screens less than 800px */
+@media (max-width: 800px) {
+    .Footer {
+        gap: 30px;
+        padding: 15px 0;
+    }
+
+    .scroll-button {
+        margin-left: 65%;
+        font-size: 24px;
+    }
+
+    .scroll-button button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-logo p {
+        font-size: 35px;
+    }
+
+    .footer-links {
+        gap: 30px;
+        font-size: 16px;
+    }
+
+    .footer-social-icons {
+        gap: 10px;
+    }
+
+    .footer-icons-container {
+        padding: 6px;
+    }
+
+    .footer-copyright {
+        font-size: 16px;
+        gap: 15px;
+    }
+}
+
+/* For screens less than 500px */
+@media (max-width: 500px) {
+    .Footer {
+        gap: 20px;
+        padding: 10px 0;
+    }
+
+    .scroll-button {
+        margin-left: 60%;
+        font-size: 20px;
+    }
+
+    .scroll-button button {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer-logo {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footer-logo p {
+        font-size: 30px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 20px;
+        font-size: 14px;
+    }
+
+    .footer-social-icons {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .footer-icons-container {
+        padding: 4px;
+    }
+
+    .footer-copyright {
+        font-size: 14px;
+        gap: 10px;
+    }
+
+    .footer-copyright hr {
+        width: 90%;
+    }
+}
+
+/* For screens less than 300px */
+@media (max-width: 300px) {
+    .Footer {
+        gap: 15px;
+        padding: 5px 0;
+    }
+
+    .scroll-button {
+        margin-left: 55%;
+        font-size: 18px;
+    }
+
+    .scroll-button button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-logo p {
+        font-size: 25px;
+    }
+
+    .footer-links {
+        gap: 15px;
+        font-size: 12px;
+    }
+
+    .footer-social-icons {
+        gap: 3px;
+    }
+
+    .footer-icons-container {
+        padding: 3px;
+    }
+
+    .footer-copyright {
+        font-size: 12px;
+        gap: 8px;
+    }
+
+    .footer-copyright hr {
+        width: 100%;
+    }
+}
