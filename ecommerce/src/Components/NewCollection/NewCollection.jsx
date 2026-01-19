@@ -7,7 +7,7 @@ export const NewCollection = () => {
   const [New_Collections,setNew_collection]=useState([]);
 
     useEffect(()=>{
-      fetch(`${import.meta.env.VITE_BACKEND_BASEURL}/newcollections`)
+      fetch(`${process.env.REACT_APP_BACKEND_BASEURL}/newcollections`)
       .then((response)=>response.json())
       .then((data)=>setNew_collection(data));
     },[])

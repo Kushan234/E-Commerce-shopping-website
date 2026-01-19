@@ -7,7 +7,7 @@ export const ListProduct = () => {
     const [allProducts,setAllProducts]=useState([]);
 
     const fetchInfo = async () =>{
-      await fetch(`${import.meta.env.VITE_BACKEND_BASEURL}/allproducts`)
+      await fetch(`${process.env.REACT_APP_BACKEND_BASEURL}/allproducts`)
       .then((res)=>res.json()).then((data)=>{setAllProducts(data)});
     }
 
@@ -16,7 +16,7 @@ export const ListProduct = () => {
       },[])
 
       const remove_product = async (id)=>{
-        await fetch(`${import.meta.env.VITE_BACKEND_BASEURL}/removeproduct`,{
+        await fetch(`${process.env.REACT_APP_BACKEND_BASEURL}/removeproduct`,{
           method:'POST',
           headers:{
             Accept:'application/json',
