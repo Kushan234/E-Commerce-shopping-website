@@ -19,7 +19,7 @@ export const LoginSignup = () => {
             console.log("Login Function Executed",formData);
 
             let responseData;
-            await fetch('http://localhost:4000/login',{
+            await fetch(`${import.meta.env.VITE_BACKEND_BASEURL}/login`,{
               method:'POST',
               headers:{
                 Accept:'application/form-data','Content-Type':'application/json',
@@ -40,7 +40,7 @@ export const LoginSignup = () => {
             console.log("Sign up Function Executed",formData);
 
             let responseData;
-            await fetch('http://localhost:4000/signup',{
+            await fetch(`${import.meta.env.VITE_BACKEND_BASEURL}/signup`,{
               method:'POST',
               headers:{
                 Accept:'application/form-data','Content-Type':'application/json',

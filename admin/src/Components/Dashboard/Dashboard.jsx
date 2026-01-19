@@ -14,7 +14,7 @@ export const Dashboard = () => {
   useEffect(() => {
     const fetchUserCount = async () => {
       try {
-        const response = await fetch('http://localhost:4000/user-count');
+        const response = await fetch(`${import.meta.env.VITE_BACKEND_BASEURL}/user-count`);
         
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
@@ -28,7 +28,7 @@ export const Dashboard = () => {
     };
     const fetchItemCount = async () => {
       try {
-        const response = await fetch('http://localhost:4000/allproducts');
+        const response = await fetch(`${import.meta.env.VITE_BACKEND_BASEURL}/allproducts`);
         
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);

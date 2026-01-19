@@ -7,7 +7,7 @@ export const ListProduct = () => {
     const [allProducts,setAllProducts]=useState([]);
 
     const fetchInfo = async () =>{
-      await fetch('http://localhost:4000/allproducts')
+      await fetch(`${import.meta.env.VITE_BACKEND_BASEURL}/allproducts`)
       .then((res)=>res.json()).then((data)=>{setAllProducts(data)});
     }
 
@@ -16,7 +16,7 @@ export const ListProduct = () => {
       },[])
 
       const remove_product = async (id)=>{
-        await fetch('http://localhost:4000/removeproduct',{
+        await fetch(`${import.meta.env.VITE_BACKEND_BASEURL}/removeproduct`,{
           method:'POST',
           headers:{
             Accept:'application/json',

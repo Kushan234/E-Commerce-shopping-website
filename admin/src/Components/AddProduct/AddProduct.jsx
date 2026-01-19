@@ -36,7 +36,7 @@ export const AddProduct = () => {
 
         //send data to API
 
-        await fetch('http://localhost:4000/upload',{
+        await fetch(`${import.meta.env.VITE_BACKEND_BASEURL}/upload`,{
             method:'POST',
             headers:{
                 Accept:'application/json',
@@ -54,7 +54,7 @@ export const AddProduct = () => {
             //Add product details to the server 
 
 
-            await fetch('http://localhost:4000/addproduct',{
+            await fetch(`${import.meta.env.VITE_BACKEND_BASEURL}/addproduct`,{
                 method:'POST',
                 headers:{
                     Accept:'application/json',

@@ -10,7 +10,7 @@ export const PaymentForm = ({ totalAmount }) => {
     event.preventDefault();
 
     if (!stripe || !elements) {
-      // Stripe.js has not loaded yet.
+      
       return;
     }
 
@@ -25,8 +25,7 @@ export const PaymentForm = ({ totalAmount }) => {
       console.error('Error creating payment method:', error);
     } else {
       console.log('Payment method created successfully:', paymentMethod);
-      // Handle the payment method and process the payment
-      // For example, send the paymentMethod.id to your server
+     
     }
   };
   
